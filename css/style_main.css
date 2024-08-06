@@ -77,7 +77,7 @@ body {
   font-weight: 600;
   color: rgb(0, 0, 0);
   font-size: clamp(20px, 2vw, 36px);
-  animation: fadeInDown 2s forwards ease-in-out, floating 3s infinite ease-in-out;
+  animation: fadeInDown 4s forwards ease-in-out, floating 3s infinite ease-in-out;
 }
 
 @keyframes fadeInDown {
