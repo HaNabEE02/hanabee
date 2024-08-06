@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 document.addEventListener('click', function () {
   const audioElement = document.getElementById("bgm");
-  audioElement.volume = 0.4;
+  audioElement.volume = 0.25;
   audioElement.play().catch(error => {
     console.log('Playback prevented:', error);
   });
